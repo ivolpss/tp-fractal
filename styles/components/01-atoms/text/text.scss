@@ -1,0 +1,50 @@
+.a-paragrapheMain{
+    font-size: var(--fontSizeM);
+    font-family: var(--fontFamilyMain);
+    font-weight: var(--fontWeightRegular);
+    line-height: var(--lineHeightLarge);
+    color: var(--colorPrimary);
+    margin-left: var(--spaceS);
+    margin-top: var(--spaceM);
+}
+
+.a-paragrapheSecond{
+    font-size: var(--fontSizeM);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorPrimary);
+    font-weight: var(--fontWeightRegular);
+}
+
+.a-paragrapheThird{
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorPrimary);
+    font-weight: var(--fontWeightLight);
+    margin-top: var(--spaceXS);
+}
+
+.a-paragrapheFour{
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextSecondary);
+    font-weight: var(--fontWeightLight);
+    margin-top: var(--spaceXS);
+}
+
+.a-paragrapheFive{
+    font-size: var(--fontSizeM);
+    font-family: var(--fontFamilyMain);
+    font-weight: var(--fontWeightRegular);;
+    color: var(--colorTextSecondary);
+    padding: var(--spaceS);
+    line-height: var(--lineHeightMain);
+}
+
+.a-paragrapheButton{
+    font-size: var(--fontSizeM);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextReversed);
+    font-weight: var(--fontWeightRegular);
+}
+
+

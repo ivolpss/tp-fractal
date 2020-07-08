@@ -1,0 +1,27 @@
+.a-title{
+    font-size: var(--fontSizeXXL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorPrimary);
+    font-weight: var(--fontWeightSemiBold);
+    margin-left: var(--spaceS);
+    line-height: var(--lineHeightMain);
+    margin-top: var(--spaceXL);
+}
+
+.a-secondTitle{
+    font-size: var(--fontSizeXL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorPrimary);
+    font-weight: var(--fontWeightSemiBold);
+    margin-left: var(--spaceS);
+
+}
+
+.a-lastTitle{
+    font-size: var(--fontSizeL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextTitle);
+    font-weight: var(--fontWeightSemiBold);
+    margin-left: var(--spaceS);
+    margin-top: var(--spaceM);
+}

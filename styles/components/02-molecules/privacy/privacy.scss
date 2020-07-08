@@ -1,0 +1,12 @@
+.m-privacy{
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spaceXL);
+}
+.line{
+    width: 1px;
+    height: 24px;
+    background-color: var(--colorPrimary);
+}

@@ -1,17 +1,17 @@
-@mixin medium {
-  @media (min-width: 768px) {
+@mixin mobile {
+  @media (min-width: 480px) {
     @content;
   }
 }
 
-@mixin large {
-  @media (min-width: 980px) {
+@mixin tablet {
+  @media (min-width: 770px) {
     @content;
   }
 }
 
-@mixin wide {
-  @media (min-width: 1280px) {
+@mixin desktop {
+  @media (min-width: 990px) {
     @content;
   }
 }

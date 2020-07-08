@@ -1,29 +1,31 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.woff2') format('woff2'),
-      url('#{$file-path}.woff') format('woff');
+    src: url('#{$file-path}.ttf') format('ttf'),
+      url('#{$file-path}.ttf') format('ttf');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
-@include font('Oswald', 'fonts/Oswald/Oswald-Regular', 400, normal);
-@include font('Oswald', 'fonts/Oswald/Oswald-Light', 300, normal);
-@include font('Roboto', 'fonts/Roboto/Roboto-Regular', 400, normal);
-@include font('Roboto', 'fonts/Roboto/Roboto-Bold', 900, normal);
-@include font('Roboto', 'fonts/Roboto/Roboto-Italic', 400, italic);
+@include font('OpenSans', 'fonts/Open_Sans/OpenSans-SemiBold', 600, normal);
+@include font('Nunito', 'fonts/Nunito/Nunito-Regular', 400, normal);
+
 
 :root {
-  --fontFamilyTitle: Oswald, sans-serif;
-  --fontFamilyMain: Roboto, sans-serif;
-  --fontFamilyCode: monospace;
+  --fontFamilyTitle: OpenSans, sans-serif;
+  --fontFamilyMain: Nunito, sans-serif;
+  --fontFamilyText: OpenSans, sans-serif;
 
-  --fontSizeXXL: 80px;
-  --fontSizeXL: 32px;
+  --fontSizeXXL: 32px;
+  --fontSizeXL: 28px;
   --fontSizeL: 24px;
-  --fontSizeM: 18px;
+  --fontSizeM: 16px;
   --fontSizeS: 14px;
+
+  --fontWeightSemiBold: 600;
+  --fontWeightRegular: 400;
+  --fontWeightLight: 300;
 
   --lineHeightMain: 1.5;
   --lineHeightLarge: 2;
